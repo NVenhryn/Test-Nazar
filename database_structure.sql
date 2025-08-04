@@ -56,3 +56,5 @@ CREATE TABLE Users (
   FOREIGN KEY (user_id) REFERENCES Users(user_id),
   FOREIGN KEY (parent_comment_id) REFERENCES Comments(comment_id)
 );
+
+//hi
